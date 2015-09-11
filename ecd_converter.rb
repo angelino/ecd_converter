@@ -15,7 +15,7 @@ def find(cod)
   COD_TABLE[cod]
 end
 
-content = File.read('ecd.txt')
+content = File.read('ecd.txt', encoding: 'ISO-8859-1')
 puts "Arquivo lido"
 
 replaceable_lines = content.scan(PATTERN)
