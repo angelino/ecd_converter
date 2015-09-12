@@ -5,9 +5,7 @@ PATTERN = /\|I051\|\w\|\|\d+\|/
 require 'csv'
 
 filename = 'tabela_ecd.csv'
-data = CSV.open(filename, 'r', encoding: 'utf-8', col_sep: ','
-  # , headers: true, header_converters: :symbol
-  )
+data = CSV.open(filename, 'r', encoding: 'utf-8', col_sep: ',')
 
 COD_TABLE = Hash[data.entries]
 
