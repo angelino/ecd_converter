@@ -4,7 +4,7 @@ PATTERN = /\|I051\|\w\|\|\d+\|/
 
 require 'csv'
 
-filename = 'tabela_ecd.csv'
+filename = 'lib/tabela_ecd.csv'
 data = CSV.open(filename, 'r', encoding: 'utf-8', col_sep: ',')
 
 COD_TABLE = Hash[data.entries]
@@ -13,7 +13,7 @@ def find(cod)
   COD_TABLE[cod]
 end
 
-content = File.read('ecd.txt')
+content = File.read('bin/ecd.txt')
 puts "Arquivo lido"
 
 replaceable_lines = content.scan(PATTERN)
