@@ -1,35 +1,61 @@
-puts "ECD Converter"
+class ECDConverter
+  PATTERN = /\|I051\|\w\|\|\d+\|/
 
-PATTERN = /\|I051\|\w\|\|\d+\|/
+  attr_reader :table
 
-require 'csv'
+  def initialize(table)
+    @table = table
+  end
 
-filename = 'lib/tabela_ecd.csv'
-data = CSV.open(filename, 'r', encoding: 'utf-8', col_sep: ',')
+  def convert(input_filename, output_filename)
+    puts "Inicio da Conversao..."
 
-COD_TABLE = Hash[data.entries]
+    content = read(input_filename)
 
-def find(cod)
-  COD_TABLE[cod]
+    replaceable_lines(content).each do |old_line|
+      cod_ref = old_line.split('|').last
+      new_cod = @table.find(cod_ref)
+      new_line = old_line.sub(cod_ref, new_cod) if new_cod
+
+      content.gsub!(old_line, new_line) if new_line
+    end
+    puts "Valores alterados..."
+
+    write(content, output_filename)
+
+    puts "Fim da Conversao"
+  end
+
+  private
+
+  def read(filename)
+    content = File.read(filename)
+    puts "Arquivo #{filename} lido..."
+    content
+  end
+
+  def write(content, filename)
+    File.open(filename, 'w') do |f|
+      f.write(content)
+    end
+    puts "Arquivo convertido armazenado em #{filename}"
+  end
+
+  def replaceable_lines(content)
+    content.scan(PATTERN).uniq
+  end
+
 end
 
-content = File.read('bin/ecd.txt')
-puts "Arquivo lido"
 
-replaceable_lines = content.scan(PATTERN)
 
-replaceable_lines.uniq.each do |old_line|
-  cod_ref = old_line.split('|').last
-  new_cod = find(cod_ref)
-  new_line = old_line.sub(cod_ref, new_cod) if new_cod
 
-  content.gsub!(old_line, new_line) if new_line
-end
-puts "Arquivo alterado"
 
-File.open('ecd.txt', 'w') do |f|
-  f.write(content)
-end
-puts "Arquivo gravado"
 
-puts "Fim"
+
+
+
+
+
+
+

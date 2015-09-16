@@ -32,5 +32,6 @@ $ chmod +x bin/ecd_converter
 ```
 
 ```bash
-$ ./bin/ecd_converter
+$ ./bin/ecd_converter <nome do arquivo de entrada> [<nome do arquivo de saida>]
 ```
+<nome do arquivo de saida> e opcional (Caso omitido, o valor ecd_convertido.txt sera usado como padrao).
