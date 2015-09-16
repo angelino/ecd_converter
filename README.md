@@ -20,7 +20,7 @@ Descrever o projeto aqui!!!
 3. Execute os testes:
 
   ```bash
-  $ rake test
+  $ rake spec
   ```
 
 4. Happy Coding!!! :-)
@@ -33,5 +33,6 @@ Descrever o projeto aqui!!!
   ```bash
   $ ./bin/ecd_converter <nome do arquivo de entrada> [<nome do arquivo de saida>]
   ```
+
 
   <nome do arquivo de saida> e opcional (Caso omitido, o valor ecd_convertido.txt sera usado como padrao).
