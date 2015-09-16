@@ -7,31 +7,31 @@ Descrever o projeto aqui!!!
 
 1. Instale o Bundler (se ainda não estiver instalado):
 
-```bash
-$ gem install bundler
-```
+  ```bash
+  $ gem install bundler
+  ```
 
 2.  Resolva as depêndencias:
 
-```bash
-$ bundle install
-```
+  ```bash
+  $ bundle install
+  ```
 
 3. Execute os testes:
 
-```bash
-$ rake test
-```
+  ```bash
+  $ rake test
+  ```
 
 4. Happy Coding!!! :-)
 
 5. Instrucões de uso:
 
-```bash
-$ chmod +x bin/ecd_converter
-```
+  ```bash
+  $ chmod +x bin/ecd_converter
+  ```
+  ```bash
+  $ ./bin/ecd_converter <nome do arquivo de entrada> [<nome do arquivo de saida>]
+  ```
 
-```bash
-$ ./bin/ecd_converter <nome do arquivo de entrada> [<nome do arquivo de saida>]
-```
-<nome do arquivo de saida> e opcional (Caso omitido, o valor ecd_convertido.txt sera usado como padrao).
+  <nome do arquivo de saida> e opcional (Caso omitido, o valor ecd_convertido.txt sera usado como padrao).
