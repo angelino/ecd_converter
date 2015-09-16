@@ -34,5 +34,4 @@ Descrever o projeto aqui!!!
   $ ./bin/ecd_converter <nome do arquivo de entrada> [<nome do arquivo de saida>]
   ```
 
-
-  <nome do arquivo de saida> e opcional (Caso omitido, o valor ecd_convertido.txt sera usado como padrao).
+  O parâmetro <nome do arquivo de saida> é opcional (Caso omitido, o valor ecd_convertido.txt sera usado como padrao).
