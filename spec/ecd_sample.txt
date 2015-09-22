@@ -1,5 +1,297 @@
-|0000|LECD|01012014|31122014|STARR International Brasil Seguradora S.A.
+|0000|LECD|01012014|31122014|STARR International Brasil Seguradora S.A.|17341270000169|SP|145908926115|3550308|46592202||0|1|0|||0|0||
+|0001|0|
+|0007|02|04928|
+|0990|4|
+|I001|0|
+|I010|G|3.00|
+|I030|TERMO DE ABERTURA|3|Diário Geral|40933|STARR International Brasil Seguradora S.A.|35300447433|17341270000169|17082012||São Paulo|31122014|
+|I050|01012014|01|S|1|1||ATIVO|
+|I050|01012014|01|S|2|11|1|CIRCULANTE|
+|I050|01012014|01|S|3|111|11|DISPONÍVEL|
+|I050|01012014|01|S|4|1111|111|CAIXA|
+|I050|01012014|01|S|5|11111|1111|CAIXA|
+|I050|01012014|01|S|6|111110|11111|CAIXA|
+|I050|01012014|01|S|7|1111100|111110|CAIXA|
+|I050|01012014|01|S|8|11111000|1111100|CAIXA|
+|I050|01012014|01|S|9|111110000|11111000|CAIXA|
+|I050|01012014|01|S|10|1111100000|111110000|CAIXA|
+|I050|01012014|01|S|11|11111000000|1111100000|CAIXA|
+|I050|01012014|01|S|12|111110000000|11111000000|CAIXA|
+|I050|01012014|01|S|13|1111100000000|111110000000|CAIXA|
+|I050|01012014|01|S|14|11111000000000|1111100000000|CAIXA|
+|I050|01012014|01|A|15|111110000000001|11111000000000|CAIXA - FUNDO FIXO|
 |I051|4||11111|
 |I052||1010101|
-|I051|4||391111|
+|I050|01012014|01|S|4|1112|111|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|5|11121|1112|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|6|111210|11121|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|6|1112100|11121|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|6|11121000|111210|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|6|111210000|1112100|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|10|1112100000|111210000|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|11|11121000000|1112100000|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|12|111210000000|11121000000|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|13|1112100000000|111210000000|VALORES EM TRÂNSITO|
+|I050|01012014|01|S|14|11121000000000|1112100000000|VALORES EM TRÂNSITO|
+|I050|01012014|01|A|15|111210000000001|11121000000000|VALORES EM TRÂNSITO|
+|I051|4||11121|
 |I052||1010101|
+|J990|70|
+|9001|0|
+|9900|0000|1|
+|9900|0001|1|
+|9900|0007|1|
+|9900|0990|1|
+|9900|9001|1|
+|9900|9990|1|
+|9900|9999|1|
+|9900|I001|1|
+|9900|I010|1|
+|9900|I030|1|
+|9900|I050|19506|
+|9900|I051|2374|
+|9900|I052|2374|
+|9900|I075|798|
+|9900|I150|12|
+|9900|I155|1997|
+|9900|I200|739|
+|9900|I250|12891|
+|9900|I350|1|
+|9900|I355|129|
+|9900|I990|1|
+|9900|J001|1|
+|9900|J005|1|
+|9900|J100|43|
+|9900|J150|18|
+|9900|J210|2|
+|9900|J900|1|
+|9900|J930|2|
+|9900|J935|1|
+|9900|J990|1|
+|9900|9900|31|
+|9990|34|
+|9999|40933|
+SBRCAAEPDR013090€	*†H†÷
+ €0€10	+ 0€	*†H†÷
+ €$€6~Õá×ó96"9<DŸœeâä»Q       €0‚`0‚H 0
+	*†H†÷
+
+ 0—10	UBR10U
+
+ICP-Brasil1=0;U4Instituto Nacional de Tecnologia da Informacao - ITI1402U+Autoridade Certificadora Raiz Brasileira v20
+111021121629Z
+211021121629Z010	UBR10U
+
+ICP-Brasil1402U+Autoridade Certificadora Raiz Brasileira v21604U-AC Secretaria da Receita Federal do Brasil v30‚"0
+	*†H†÷
+ ‚ 0‚
+‚ Ár´ÂüN›G]5ˆ^=n›W@I)ëí¢ñ+4‘ô„mÊ~eƒSé 
+?lQØÔüŽíJ¦®ŒžÍmfk(Ý\ÜiÁÒÝ~gjÿ#èð$…~ûIŸ¢ˆûõH…ò$±y7¼æ‡<à?LÚf™OçÈ@yŒÔ°2r‘M½¼Ú÷m^¶ —œ4ÒH»ì,íž³Õ¨·AuÞP«Vm
+D±ãÚY\‚î»´ìY„£Ym-è„[œ‰U–B üØÈÀF:,ÛT	¦FjöÃÚÅÖædÊU-n~0ak#æK}+ar8
+*]¨U}jÐqö¨‰¯-²^Åëyi­¤CÕAìläQá6O”Šl‹JÊSüüC|êíë<Žç²bgè{ŒV^w†Ê6êOîkkQ‘Âß
+…ð÷ü“b(–ÓÁ…Œ±ú¼HšGi½b³¼•œ2ýÈVäDu>ÖPì±ÙÕ
+Uõ´­¥ä@11óëGµÈš¾J±Ê‘JQ]x=9Ä\ÈFé)¸9¹¥÷Á_EOg¯'Xáqu­­œåÑCŠïO¾'Þè}SÊ^£9¬Ï¡q3D®ðéñØ”hØåyéj4+z–ï4Ï.¯?V7ÃÖþ¶°«$Õµ¿@µÂlmÿýž8„ÕÔ“b÷¹”½ã3b!kiÛ £»0¸0UuËºÑÎL§’ðq°Ë¾¸{3²(0Uÿ0ÿ0Uÿ0U 
+00	`L0 0?U80604 2 0†.http://acraiz.icpbrasil.gov.br/LCRacraizv2.crl0U#0€9 :·Ë×(}A ÇúJ­2$¾0
+	*†H†÷
+
+ ‚ ‰‰©…8ÔÙA¸é*~	g‹Ÿz)eQž¤Ö§¼áý÷jÿZ
+ßÆ‰š›èZyèÜf9Sü
+>‰ ˆ³+i KÖJ›½…õ‘.E§„%ªÝY²n›Pé\ ?pg)iîÍey´£íxŽéêEàäxJ—Óˆ™á|vª>u›b+3Ê¶~SâÛá±\Ž‹§ªõ4|®ŸäÖxÛ
+@Q¤’Ð·»Žû–¬1–;âþ~ç±½oÇb}..Œú]2W-ƒŒ&èÑÓp4ð/œ2L¥àoijL9’ïñ
+àpMÐÌuZ²ûèÅ%Zn³q§M‚3ôËÔnlˆ$™~4ä|9|¼
+­èŠ”¦ÖÞ/üˆlá ­ 2Ù¹íÐ×d`¨sZ)Ë°LÚ
+äùñDM‹c?%ZåXIíQí§†þ6ú-ù •V¥Ä˜:·£¤ŸÐ ]_Fg[Ñ½~•"×€çðÜÅ[ç¾ðp_ôèSÎ½ªb”óù»í¦›ŠpYí®
+sÞÜ0qæ	/Bë,XŸ0¨ïfºËÇéÍoè³söÎÒ
+]œ`	)þgš²˜1Øß‚~-a<ù!£8bäêÿ[ª‘ ‰,kHG’(¼¸W~!‘(OŒ;eØæÿiMð`ä†<_›ôÐ%ÎàìÊÅë¹Q€!)˜0‚)0‚ 0
+	*†H†÷
+
+ 010	UBR10U
+
+ICP-Brasil1402U+Autoridade Certificadora Raiz Brasileira v21604U-AC Secretaria da Receita Federal do Brasil v30
+120126121017Z
+200126121017Z0u10	UBR10U
+
+ICP-Brasil1604U-Secretaria da Receita Federal do Brasil - RFB10UAC SINCOR RFB G40‚"0
+	*†H†÷
+ ‚ 0‚
+‚ ¸ÃƒY^V™pEÂÆ»º®©ÆÜ•Ìa´#Ÿ°äƒ ˜Pj	>ÿ"ÓÇ¹
+‰’ÏdÒ|¯fÒÚúZùj%€âaß8p™¬§y fâÏî¤5œ&b°" MôXÅó_Jð|’b‹=Œ<â‚¼âŠšÓmdÒ¥Ï9¨,Õ|æ&Ã^Äï•%Ï¡÷A‡“à±Õk-Oë-XiG¡b¯‰£!BŠ¯ò·¦ÎKf\º¡—:}ÐK®Ì–½^<JÆBA"±˜±8ÉFÈìU4·ŒDUåí%~Tv·©{jÿå”{5¥F+õ>ÍöX:W%XÒõ¨Ä$™ÎIî¹æ0s°Ä
+—˜ÙM³sÂ%ª•nPá@ã\Q·-ý¹L/4µal·Ô3<ýý4
+Ä“‡r]ñ€wÕQá=($ª¿Søq[1Üç‚‘Õý@JOçö§ŽMt#ÛC'C$ÔéÞÜrÓÁr¶‡tLÂ²åê¾A® â±-ýàðX`©Cà•Î®°‹G2×Ü‹E2‘¾<‹$ŠÙã-íZw#òµ‡]KeÉ‹ï°ûÁëJxm½,Uf!¿!}Å)ˆ½óÒ¿ïu‹2»ì¾^åÃ¸ŠÔ’?ºåèïò¸,¸îÕx‘A”â¥ŒÆ„ÐW“|ƒ“{³½WW½X(Ø×áÁ&”–ÓŸpJ±z®Vœørá\ŠI £‚¦0‚¢0õU í0ê0L`L0B0@+4http://www.receita.fazenda.gov.br/acrfb/dpcacrfb.pdf0L`L0B0@+4http://www.receita.fazenda.gov.br/acrfb/dpcacrfb.pdf0L`L0B0@+4http://www.receita.fazenda.gov.br/acrfb/dpcacrfb.pdf0DU=0;09 7 5†3http://www.receita.fazenda.gov.br/acrfb/acrfbv3.crl0U#0€uËºÑÎL§’ðq°Ë¾¸{3²(0U)ÃÙèn²¿Q$—F¸ÞÄ5˜0Uÿ0ÿ 0Uÿ0
+	*†H†÷
+
+ ‚ WÀTÌ Õ‡g˜E¥Ä!¡&,kƒ1 ‹úÏ`ÆqªÈíW¬¢	{°2óè8_7':9¯<ÕNY•ºñ“áWœð*ˆáœöÕÝ¥`ŽÜžRÿ(:nmâ´*¥|æSÐN„þV©f[Ë¨„+Èùñœ_†™C®êØÄfÓæØ¶£IžFß17Ã3Ô}“®3t¡ÊŒæëÛÎkÿæ¸ŠB³|Û¯Ñu’Ul ÚýÀàô±”T7U„gl¡I(49jOñÐÝ¿+O¸ûH™C0“NÏèÂí ß!°­BT÷Ô¬¾Ï?åÈ36£†¬HIyD7w è_1og™ê¥¾éß·6ñºZ¿ÒzµÆÈ‰®¸ ¶Ñ\e™BdVvDB2·é²G¦sõJQÖ‹Æ¶Ò<ÉÌgnVøkjá»”@§ÙA• 6Â]Ü3•‹b‡ý(ÂˆòõÃl~CîÍèøRmÄË ÈýÅÝ¡é>"µ¨‡²;ö…àz «îpðìaQ;^ˆa_+N`}ŒyW:3Éx*x_ÕA¨›zˆ)ç÷îÄîðú³TCþ3Ô‚MLGI‘Lzÿ©K3xØs­Ýã+
+!‚B¹²´³§lÜë7õ2S¼„jº›ýHg‚œxÈ’w
+mê\÷X0‚¡0‚‰ 0
+	*†H†÷
+
+ 0—10	UBR10U
+
+ICP-Brasil1=0;U4Instituto Nacional de Tecnologia da Informacao - ITI1402U+Autoridade Certificadora Raiz Brasileira v20
+100621190457Z
+230621190457Z0—10	UBR10U
+
+ICP-Brasil1=0;U4Instituto Nacional de Tecnologia da Informacao - ITI1402U+Autoridade Certificadora Raiz Brasileira v20‚"0
+	*†H†÷
+ ‚ 0‚
+‚ ºF¤Ýç@òµ |R•WEüm„ó†É…­˜«Òò^™É»obgýwD¹<Ò bÔp,Bƒyf«™V®¼jI½ótb·ë[f”B$F¬šB0ð$¨QAê«•ñ¨+xiµ)'^œ.sÆþ#¥ã¦Îýlk Të ­O:L<ç
+ˆ[Ú^šVäµT8ò
+“dNÃA’S *ÏütnÔÛ38bäþŽLX÷*MÿÅ’Ù	R½Ïp iš3jˆ‡E!™Q
+4ß‚½´i¨||ÔÝÓò\KÅXê…Ë6"X*rš–ÞÊÏQa¿´)+†þéMÃGËÏvÙq¦‡{@ä3€x¤òŽ›@;ÉrPßi¾ð,–µÕ®tãe´Œéjûr\Å‚TêàSÄÌé÷Þ×/ÔH/G?&a±š3kµ†K+Ð†Gíiûü„føVåŠlvÄkzÂ ZÑ#‰X|XÚŽÙ~}7¶¤Eõ…ÌGú‹yE¸fb3Ó&JÞéÔæm&¹<}Í(
+)›Ýc«¹¦G„×…¤eKRƒ4B1Ž.æ³g•@~—z@ ùlƒ8X­3[¦ÄÁÅ°¬
+©ð¦i4¶éø”HO>¦u	ìJÅ;àÉ^°2ÿŸiYÏ<0o
+Î'WìZhÿìOox2>yÅ´]• £õ0ò0NU G0E0C`L 0:08+,http://acraiz.icpbrasil.gov.br/DPCacraiz.pdf0?U80604 2 0†.http://acraiz.icpbrasil.gov.br/LCRacraizv2.crl0U#0€9 :·Ë×(}A ÇúJ­2$¾0U9 :·Ë×(}A ÇúJ­2$¾0Uÿ0ÿ0Uÿ0
+	*†H†÷
+
+ ‚ Yšim})Cp}v›aßwŽvä©ÖËv¤L”ÆÑÅ­Ù-D¼²	v	€9g 4m
+æµYHºu`ü?ŽUp+žK•¬‰«
+w${aÄÇ‘&ŽFQ7¶Œ'
+Ó
+ðš+"ƒƒ³½ƒ5­›<¼xƒ)5a6øq3 TcSEØZ„;×f$·ÄFÅ"Øs$î–È%èÏß…Pm<ê÷Pž—Þ§kÛÖsÒÏ|PÀ°ŒåSz†9¬5[gÇêÔûÑÂ]ê—s˜®)¿ä:ó6P,íÞÛ…è„	îó¦ƒ3[oGyOHµü¸&«ª³ôaûEgó>nþ*K&DŸ±¢à<Úàä:x¬û¨¡M¿],w)Íï(Ø·ó[ÈÉž§~1ŠxbÄÑ¼c+
+‰Ýä\[2€DÔBì*óò@‡1Õ>â
+2Õrmæýä¨óuw›
+¹ú’™eˆ2gCŽ-»5ñaèÙgwíåè-k4?Žƒ³÷êJ>5„Œ€4?©•èÃ­ÄÍžÊ,žä6‹¹¹£B%>ÃåÕhO f¦³¶s?@¹VBp‡ÿo-ýÿ÷…0ã1î'•ÌÉé™—Çm[µj=òEßº‚y$p.›‚f©¥m'Ìö*¢Ñ_…oàFªÒ¥NU0‚0‚ø }&< ñ§Uò Å§·þ0
+	*†H†÷
+ 0u10	UBR10U
+
+ICP-Brasil1604U-Secretaria da Receita Federal do Brasil - RFB10UAC SINCOR RFB G40
+150612000000Z
+180610235959Z0ä10	UBR10U
+
+ICP-Brasil1604U-Secretaria da Receita Federal do Brasil - RFB10URFB e-CPF A310U(EM BRANCO)1%0#UAutenticado por AR Kaminskas1402U+MAURICIO GONCALVES CAMILO PINTO:063394778440‚"0
+	*†H†÷
+ ‚ 0‚
+‚ Ð3þ´ïY¤åS·I’ÛZ“ÿÿÁ!¦ž7ìÕ
+Î¤V,( Ë
+|_›â(VçLÓ3øCÚžJ>ðý½Y ¯ÞžKDÏùâŽ‘P¹öÐ@fÊÂ."<ú>ÔtÂ÷õe›UñÀñÎdÆ”çÆá£Ú’ –9„ç(~®™—efWÈ Ãã{#ž4ÙÈs8y¥ÙÀS)ThRZ à„¶].*ä¤,
+8ì{rèáýñÐ÷f[ovÉ…ùiu¯kÔü¢«à;›Ïêî*;2Ä	­1I^S”{E$Æ¾g»”Î„
+¼5föÅÚc_ùø¼ygžÊ/ezµ?A¨&&jEC £‚*0‚&0¢Uš0— 8`L /-270919640633947784400000000000000000000000000 `L 000000000000 `L 0000000000000000000"mauricio@mcamiloconsultoria.com.br0	U0 0U#0€)ÃÙèn²¿Q$—F¸ÞÄ5˜0Uÿà0xU q0o0m`L0c0a+Uhttp://icp-brasil.acsincor.com.br/repositorio/dpc/AC_SINCOR_RFB/DPC_AC_SINCOR_RFB.pdf0‚
+U‚0‚ 0T R P†Nhttp://icp-brasil.certisign.com.br/repositorio/lcr/ACSINCORRFBG4/LatestCRL.crl0S Q O†Mhttp://icp-brasil.outralcr.com.br/repositorio/lcr/ACSINCORRFBG4/LatestCRL.crl0S Q O†Mhttp://repositorio.icpbrasil.gov.br/lcr/Certisign/ACSINCORRFBG4/LatestCRL.crl0U%0++0˜+‹0ˆ0\+0†Phttp://icp-brasil.certisign.com.br/repositorio/certificados/AC_SINCOR_RFB_G4.p7c0(+0†http://ocsp.certisign.com.br0
+	*†H†÷
+ ‚ §zÀ7JÔJ„hxý
+9éJ´)}*by77¦£ðž¬?ç·}Ÿ@;K_¤Z1b¸qXðìˆ¯å¸*º´ƒ1eòVëÌÎÁ/]½³ï­k&Î.ª~c¯Üôö
+uTŸ£Þ1Rsˆ4–C`=š§ªgö|¢»z'¶eêƒ|®f·$â2q‰NbAO"Í5it®®å:‘ µ]¼éê-.‚GvÉ^ošÊÖÀrü$_Ü&Œ‘Û›îÓZ:æ«kb]çU¤ðo?ÇH
+ÿjP, å‚ôbçÂˆÇÀëÁ–p°ñû'{ºeìG@Øó†=~8ï<be•_™v=¾'Ò¯>pÞ¯c¯^á\üXz2ƒF0(ˆ%ž²ÒÞD»?É&>f.©ÎÖµæ8_1é«"í(¯+K˜ÄàP-e>e:L+1l7µÿ‚ Áªö«TÊKY›`OÖWôùú!âÐ`þMíˆÖ]Yßóœª>ŸÁ)°UÒ9å€BßQ[	®šÑ‚=,8LœˆÄA—P—¨TI”k!Ì‹G'/.wö!ã(@›¨Àß¤Kjd×8¥%ÐzÒ—›û“1ò‘BÄèûZÁÊ³”îcGÆ£Æ^ÖñºÎrš±çØrÊvƒ_T[saÝßwGžÆÎ½Ä&Øå­!/½”yljÄÕ’  1‚A0‚=0‰0u10	UBR10U
+
+ICP-Brasil1604U-Secretaria da Receita Federal do Brasil - RFB10UAC SINCOR RFB G4}&< ñ§Uò Å§·þ0	+  0	*†H†÷
+	1	*†H†÷
+0	*†H†÷
+	1
+150629211504Z0#	*†H†÷
+	1ÆN
+ûéÓ{ª¼ÐÁ	Ž ¦¹U0.
++‚7X1 | 1 | 3 . 2 . 0 | 3 0 0 1 | 2 0
+	*†H†÷
+ ‚ %6+ê#§
+os(ÑÅyžhÓzlgü§ÉVÅP:8ˆ6˜$ýÓtoyzæ,ðfEÝØž:÷ÑÃ®Fþñ'®â¿ý«‰¥³[U¿2‘×tð[—t);1¥Åƒ×•Õdm]GM5 Ïò3íW½I]`â®Imê«ÅÃß5¤‡cP"Çî¡œPj¤ ;³$€Ú;A*Æ—•mù)¤T ÎÊ•Çbsxx„y4ŒÛ>8–…øx2O<YvÌ–ŒÄ]œ¹ºâ%eÓ¬:¡GF®½¤½ziGK\¥[!=\äQV¶4[8LBâ¾ÞxgÂ«í7ÝrK­Bå‚      SBRCAAEPDR029000€	*†H†÷
+ €0€10	+ 0€	*†H†÷
+ €$€6~Õá×ó96"9<DŸœeâä»Q       €0‚`0‚H 0
+	*†H†÷
+
+ 0—10	UBR10U
+
+ICP-Brasil1=0;U4Instituto Nacional de Tecnologia da Informacao - ITI1402U+Autoridade Certificadora Raiz Brasileira v20
+111021121629Z
+211021121629Z010	UBR10U
+
+ICP-Brasil1402U+Autoridade Certificadora Raiz Brasileira v21604U-AC Secretaria da Receita Federal do Brasil v30‚"0
+	*†H†÷
+ ‚ 0‚
+‚ Ár´ÂüN›G]5ˆ^=n›W@I)ëí¢ñ+4‘ô„mÊ~eƒSé 
+?lQØÔüŽíJ¦®ŒžÍmfk(Ý\ÜiÁÒÝ~gjÿ#èð$…~ûIŸ¢ˆûõH…ò$±y7¼æ‡<à?LÚf™OçÈ@yŒÔ°2r‘M½¼Ú÷m^¶ —œ4ÒH»ì,íž³Õ¨·AuÞP«Vm
+D±ãÚY\‚î»´ìY„£Ym-è„[œ‰U–B üØÈÀF:,ÛT	¦FjöÃÚÅÖædÊU-n~0ak#æK}+ar8
+*]¨U}jÐqö¨‰¯-²^Åëyi­¤CÕAìläQá6O”Šl‹JÊSüüC|êíë<Žç²bgè{ŒV^w†Ê6êOîkkQ‘Âß
+…ð÷ü“b(–ÓÁ…Œ±ú¼HšGi½b³¼•œ2ýÈVäDu>ÖPì±ÙÕ
+Uõ´­¥ä@11óëGµÈš¾J±Ê‘JQ]x=9Ä\ÈFé)¸9¹¥÷Á_EOg¯'Xáqu­­œåÑCŠïO¾'Þè}SÊ^£9¬Ï¡q3D®ðéñØ”hØåyéj4+z–ï4Ï.¯?V7ÃÖþ¶°«$Õµ¿@µÂlmÿýž8„ÕÔ“b÷¹”½ã3b!kiÛ £»0¸0UuËºÑÎL§’ðq°Ë¾¸{3²(0Uÿ0ÿ0Uÿ0U 
+00	`L0 0?U80604 2 0†.http://acraiz.icpbrasil.gov.br/LCRacraizv2.crl0U#0€9 :·Ë×(}A ÇúJ­2$¾0
+	*†H†÷
+
+ ‚ ‰‰©…8ÔÙA¸é*~	g‹Ÿz)eQž¤Ö§¼áý÷jÿZ
+ßÆ‰š›èZyèÜf9Sü
+>‰ ˆ³+i KÖJ›½…õ‘.E§„%ªÝY²n›Pé\ ?pg)iîÍey´£íxŽéêEàäxJ—Óˆ™á|vª>u›b+3Ê¶~SâÛá±\Ž‹§ªõ4|®ŸäÖxÛ
+@Q¤’Ð·»Žû–¬1–;âþ~ç±½oÇb}..Œú]2W-ƒŒ&èÑÓp4ð/œ2L¥àoijL9’ïñ
+àpMÐÌuZ²ûèÅ%Zn³q§M‚3ôËÔnlˆ$™~4ä|9|¼
+­èŠ”¦ÖÞ/üˆlá ­ 2Ù¹íÐ×d`¨sZ)Ë°LÚ
+äùñDM‹c?%ZåXIíQí§†þ6ú-ù •V¥Ä˜:·£¤ŸÐ ]_Fg[Ñ½~•"×€çðÜÅ[ç¾ðp_ôèSÎ½ªb”óù»í¦›ŠpYí®
+sÞÜ0qæ	/Bë,XŸ0¨ïfºËÇéÍoè³söÎÒ
+]œ`	)þgš²˜1Øß‚~-a<ù!£8bäêÿ[ª‘ ‰,kHG’(¼¸W~!‘(OŒ;eØæÿiMð`ä†<_›ôÐ%ÎàìÊÅë¹Q€!)˜0‚)0‚ 0
+	*†H†÷
+
+ 010	UBR10U
+
+ICP-Brasil1402U+Autoridade Certificadora Raiz Brasileira v21604U-AC Secretaria da Receita Federal do Brasil v30
+120126121017Z
+200126121017Z0u10	UBR10U
+
+ICP-Brasil1604U-Secretaria da Receita Federal do Brasil - RFB10UAC SINCOR RFB G40‚"0
+	*†H†÷
+ ‚ 0‚
+‚ ¸ÃƒY^V™pEÂÆ»º®©ÆÜ•Ìa´#Ÿ°äƒ ˜Pj	>ÿ"ÓÇ¹
+‰’ÏdÒ|¯fÒÚúZùj%€âaß8p™¬§y fâÏî¤5œ&b°" MôXÅó_Jð|’b‹=Œ<â‚¼âŠšÓmdÒ¥Ï9¨,Õ|æ&Ã^Äï•%Ï¡÷A‡“à±Õk-Oë-XiG¡b¯‰£!BŠ¯ò·¦ÎKf\º¡—:}ÐK®Ì–½^<JÆBA"±˜±8ÉFÈìU4·ŒDUåí%~Tv·©{jÿå”{5¥F+õ>ÍöX:W%XÒõ¨Ä$™ÎIî¹æ0s°Ä
+—˜ÙM³sÂ%ª•nPá@ã\Q·-ý¹L/4µal·Ô3<ýý4
+Ä“‡r]ñ€wÕQá=($ª¿Søq[1Üç‚‘Õý@JOçö§ŽMt#ÛC'C$ÔéÞÜrÓÁr¶‡tLÂ²åê¾A® â±-ýàðX`©Cà•Î®°‹G2×Ü‹E2‘¾<‹$ŠÙã-íZw#òµ‡]KeÉ‹ï°ûÁëJxm½,Uf!¿!}Å)ˆ½óÒ¿ïu‹2»ì¾^åÃ¸ŠÔ’?ºåèïò¸,¸îÕx‘A”â¥ŒÆ„ÐW“|ƒ“{³½WW½X(Ø×áÁ&”–ÓŸpJ±z®Vœørá\ŠI £‚¦0‚¢0õU í0ê0L`L0B0@+4http://www.receita.fazenda.gov.br/acrfb/dpcacrfb.pdf0L`L0B0@+4http://www.receita.fazenda.gov.br/acrfb/dpcacrfb.pdf0L`L0B0@+4http://www.receita.fazenda.gov.br/acrfb/dpcacrfb.pdf0DU=0;09 7 5†3http://www.receita.fazenda.gov.br/acrfb/acrfbv3.crl0U#0€uËºÑÎL§’ðq°Ë¾¸{3²(0U)ÃÙèn²¿Q$—F¸ÞÄ5˜0Uÿ0ÿ 0Uÿ0
+	*†H†÷
+
+ ‚ WÀTÌ Õ‡g˜E¥Ä!¡&,kƒ1 ‹úÏ`ÆqªÈíW¬¢	{°2óè8_7':9¯<ÕNY•ºñ“áWœð*ˆáœöÕÝ¥`ŽÜžRÿ(:nmâ´*¥|æSÐN„þV©f[Ë¨„+Èùñœ_†™C®êØÄfÓæØ¶£IžFß17Ã3Ô}“®3t¡ÊŒæëÛÎkÿæ¸ŠB³|Û¯Ñu’Ul ÚýÀàô±”T7U„gl¡I(49jOñÐÝ¿+O¸ûH™C0“NÏèÂí ß!°­BT÷Ô¬¾Ï?åÈ36£†¬HIyD7w è_1og™ê¥¾éß·6ñºZ¿ÒzµÆÈ‰®¸ ¶Ñ\e™BdVvDB2·é²G¦sõJQÖ‹Æ¶Ò<ÉÌgnVøkjá»”@§ÙA• 6Â]Ü3•‹b‡ý(ÂˆòõÃl~CîÍèøRmÄË ÈýÅÝ¡é>"µ¨‡²;ö…àz «îpðìaQ;^ˆa_+N`}ŒyW:3Éx*x_ÕA¨›zˆ)ç÷îÄîðú³TCþ3Ô‚MLGI‘Lzÿ©K3xØs­Ýã+
+!‚B¹²´³§lÜë7õ2S¼„jº›ýHg‚œxÈ’w
+mê\÷X0‚¡0‚‰ 0
+	*†H†÷
+
+ 0—10	UBR10U
+
+ICP-Brasil1=0;U4Instituto Nacional de Tecnologia da Informacao - ITI1402U+Autoridade Certificadora Raiz Brasileira v20
+100621190457Z
+230621190457Z0—10	UBR10U
+
+ICP-Brasil1=0;U4Instituto Nacional de Tecnologia da Informacao - ITI1402U+Autoridade Certificadora Raiz Brasileira v20‚"0
+	*†H†÷
+ ‚ 0‚
+‚ ºF¤Ýç@òµ |R•WEüm„ó†É…­˜«Òò^™É»obgýwD¹<Ò bÔp,Bƒyf«™V®¼jI½ótb·ë[f”B$F¬šB0ð$¨QAê«•ñ¨+xiµ)'^œ.sÆþ#¥ã¦Îýlk Të ­O:L<ç
+ˆ[Ú^šVäµT8ò
+“dNÃA’S *ÏütnÔÛ38bäþŽLX÷*MÿÅ’Ù	R½Ïp iš3jˆ‡E!™Q
+4ß‚½´i¨||ÔÝÓò\KÅXê…Ë6"X*rš–ÞÊÏQa¿´)+†þéMÃGËÏvÙq¦‡{@ä3€x¤òŽ›@;ÉrPßi¾ð,–µÕ®tãe´Œéjûr\Å‚TêàSÄÌé÷Þ×/ÔH/G?&a±š3kµ†K+Ð†Gíiûü„føVåŠlvÄkzÂ ZÑ#‰X|XÚŽÙ~}7¶¤Eõ…ÌGú‹yE¸fb3Ó&JÞéÔæm&¹<}Í(
+)›Ýc«¹¦G„×…¤eKRƒ4B1Ž.æ³g•@~—z@ ùlƒ8X­3[¦ÄÁÅ°¬
+©ð¦i4¶éø”HO>¦u	ìJÅ;àÉ^°2ÿŸiYÏ<0o
+Î'WìZhÿìOox2>yÅ´]• £õ0ò0NU G0E0C`L 0:08+,http://acraiz.icpbrasil.gov.br/DPCacraiz.pdf0?U80604 2 0†.http://acraiz.icpbrasil.gov.br/LCRacraizv2.crl0U#0€9 :·Ë×(}A ÇúJ­2$¾0U9 :·Ë×(}A ÇúJ­2$¾0Uÿ0ÿ0Uÿ0
+	*†H†÷
+
+ ‚ Yšim})Cp}v›aßwŽvä©ÖËv¤L”ÆÑÅ­Ù-D¼²	v	€9g 4m
+æµYHºu`ü?ŽUp+žK•¬‰«
+w${aÄÇ‘&ŽFQ7¶Œ'
+Ó
+ðš+"ƒƒ³½ƒ5­›<¼xƒ)5a6øq3 TcSEØZ„;×f$·ÄFÅ"Øs$î–È%èÏß…Pm<ê÷Pž—Þ§kÛÖsÒÏ|PÀ°ŒåSz†9¬5[gÇêÔûÑÂ]ê—s˜®)¿ä:ó6P,íÞÛ…è„	îó¦ƒ3[oGyOHµü¸&«ª³ôaûEgó>nþ*K&DŸ±¢à<Úàä:x¬û¨¡M¿],w)Íï(Ø·ó[ÈÉž§~1ŠxbÄÑ¼c+
+‰Ýä\[2€DÔBì*óò@‡1Õ>â
+2Õrmæýä¨óuw›
+¹ú’™eˆ2gCŽ-»5ñaèÙgwíåè-k4?Žƒ³÷êJ>5„Œ€4?©•èÃ­ÄÍžÊ,žä6‹¹¹£B%>ÃåÕhO f¦³¶s?@¹VBp‡ÿo-ýÿ÷…0ã1î'•ÌÉé™—Çm[µj=òEßº‚y$p.›‚f©¥m'Ìö*¢Ñ_…oàFªÒ¥NU0‚0‚ø }&< ñ§Uò Å§·þ0
+	*†H†÷
+ 0u10	UBR10U
+
+ICP-Brasil1604U-Secretaria da Receita Federal do Brasil - RFB10UAC SINCOR RFB G40
+150612000000Z
+180610235959Z0ä10	UBR10U
+
+ICP-Brasil1604U-Secretaria da Receita Federal do Brasil - RFB10URFB e-CPF A310U(EM BRANCO)1%0#UAutenticado por AR Kaminskas1402U+MAURICIO GONCALVES CAMILO PINTO:063394778440‚"0
+	*†H†÷
+ ‚ 0‚
+‚ Ð3þ´ïY¤åS·I’ÛZ“ÿÿÁ!¦ž7ìÕ
+Î¤V,( Ë
+|_›â(VçLÓ3øCÚžJ>ðý½Y ¯ÞžKDÏùâŽ‘P¹öÐ@fÊÂ."<ú>ÔtÂ÷õe›UñÀñÎdÆ”çÆá£Ú’ –9„ç(~®™—efWÈ Ãã{#ž4ÙÈs8y¥ÙÀS)ThRZ à„¶].*ä¤,
+8ì{rèáýñÐ÷f[ovÉ…ùiu¯kÔü¢«à;›Ïêî*;2Ä	­1I^S”{E$Æ¾g»”Î„
+¼5föÅÚc_ùø¼ygžÊ/ezµ?A¨&&jEC £‚*0‚&0¢Uš0— 8`L /-270919640633947784400000000000000000000000000 `L 000000000000 `L 0000000000000000000"mauricio@mcamiloconsultoria.com.br0	U0 0U#0€)ÃÙèn²¿Q$—F¸ÞÄ5˜0Uÿà0xU q0o0m`L0c0a+Uhttp://icp-brasil.acsincor.com.br/repositorio/dpc/AC_SINCOR_RFB/DPC_AC_SINCOR_RFB.pdf0‚
+U‚0‚ 0T R P†Nhttp://icp-brasil.certisign.com.br/repositorio/lcr/ACSINCORRFBG4/LatestCRL.crl0S Q O†Mhttp://icp-brasil.outralcr.com.br/repositorio/lcr/ACSINCORRFBG4/LatestCRL.crl0S Q O†Mhttp://repositorio.icpbrasil.gov.br/lcr/Certisign/ACSINCORRFBG4/LatestCRL.crl0U%0++0˜+‹0ˆ0\+0†Phttp://icp-brasil.certisign.com.br/repositorio/certificados/AC_SINCOR_RFB_G4.p7c0(+0†http://ocsp.certisign.com.br0
+	*†H†÷
+ ‚ §zÀ7JÔJ„hxý
+9éJ´)}*by77¦£ðž¬?ç·}Ÿ@;K_¤Z1b¸qXðìˆ¯å¸*º´ƒ1eòVëÌÎÁ/]½³ï­k&Î.ª~c¯Üôö
+uTŸ£Þ1Rsˆ4–C`=š§ªgö|¢»z'¶eêƒ|®f·$â2q‰NbAO"Í5it®®å:‘ µ]¼éê-.‚GvÉ^ošÊÖÀrü$_Ü&Œ‘Û›îÓZ:æ«kb]çU¤ðo?ÇH
+ÿjP, å‚ôbçÂˆÇÀëÁ–p°ñû'{ºeìG@Øó†=~8ï<be•_™v=¾'Ò¯>pÞ¯c¯^á\üXz2ƒF0(ˆ%ž²ÒÞD»?É&>f.©ÎÖµæ8_1é«"í(¯+K˜ÄàP-e>e:L+1l7µÿ‚ Áªö«TÊKY›`OÖWôùú!âÐ`þMíˆÖ]Yßóœª>ŸÁ)°UÒ9å€BßQ[	®šÑ‚=,8LœˆÄA—P—¨TI”k!Ì‹G'/.wö!ã(@›¨Àß¤Kjd×8¥%ÐzÒ—›û“1ò‘BÄèûZÁÊ³”îcGÆ£Æ^ÖñºÎrš±çØrÊvƒ_T[saÝßwGžÆÎ½Ä&Øå­!/½”yljÄÕ’  1‚A0‚=0‰0u10	UBR10U
+
+ICP-Brasil1604U-Secretaria da Receita Federal do Brasil - RFB10UAC SINCOR RFB G4}&< ñ§Uò Å§·þ0	+  0	*†H†÷
+	1	*†H†÷
+0	*†H†÷
+	1
+150629211527Z0#	*†H†÷
+	1ÆN
+ûéÓ{ª¼ÐÁ	Ž ¦¹U0.
++‚7X1 | 1 | 3 . 2 . 0 | 3 0 0 1 | 2 0
+	*†H†÷
+ ‚ B3ù>¡äÆñš·ÄñP—yr«|Í”ë&™¿¢µ‚³qà­ÃE^TMKŽPµ}Xë.¹ÐN€¤ìnü”O„¼ùaó§ `_m$xøýˆ£Ÿ¾¬!§ÂL6ïæÚ·ýŒd˜d§eUÜeB#µý€ÌI;4ÉO§3£?ûô¡Ö×`=I+§MëêP×Ñb]6ÒÕl¦É­qÛØê•—5)ÁÕ&’·ŠáWjyoïÝÈ]9n…ú÷žÉ«P!¾NR0/ßKœmÿ”ÖíÕÏÔSý04Ô¤÷ÕÊ‚Á›Z·¬[×á¼_­KE&x)TÈOFÅwtÌ˜»yÁË

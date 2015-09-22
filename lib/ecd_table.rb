@@ -18,6 +18,6 @@ class ECDTable
   private
 
   def data
-    @data ||= CSV.open(filename, 'r', encoding: 'utf-8', col_sep: ',')
+    @data ||= CSV.open(filename, 'r', encoding: 'ISO-8859-1', col_sep: ',')
   end
 end
