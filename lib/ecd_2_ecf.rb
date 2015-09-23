@@ -1,4 +1,4 @@
-require 'ecd_register'
+require_relative './ecd_register'
 
 class Ecd2Ecf
   attr_reader :table

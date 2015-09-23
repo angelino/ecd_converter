@@ -1,0 +1,28 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/ecd_table'
+require_relative '../lib/ecd_2_ecf'
+require_relative '../lib/ecd_register'
+
+table = ECDTable.new('lib/tabela_ecd.csv')
+
+ecd2ecf = Ecd2Ecf.new(table)
+
+input = ARGV.first || 'ecd.txt'
+
+if File.exists?(input)
+  Dir.mkdir('output') unless Dir.exists?('output')
+  output = File.join('output', ARGV[1] || 'ecd_convertido_p_ecf.txt')
+  ecd2ecf.convert(input, output)
+else
+  puts "Nenhum arquivo informado para conversao"
+  puts
+  puts "Modo de usar:"
+  puts "    ./bin/ecd_converter <nome do arquivo de entrada> [<nome do arquivo de saida>]"
+  puts "        <nome do arquivo de saida> e opcional (Caso omitido, o valor ecd_convertido.txt sera usado como padrao)."
+  puts
+  puts "Exemplos de usos:"
+  puts "    ./bin/ecd_converter ecd.txt"
+  puts "    ou "
+  puts "    ./bin/ecd_converter ecd.txt ecd_output.txt"
+end
