@@ -22,7 +22,6 @@ class Ecd2Ecf
     finish_time = Time.now
     puts "#{finish_time} - Finishing creation of ECF..."
     puts "Finished conversion in #{finish_time.tv_sec - start_time.tv_sec} seconds"
-    puts new_content
   end
 
   private
@@ -41,16 +40,19 @@ class Ecd2Ecf
   end
 
   def prepare_header(content, new_content)
+    first_ecd_line = content.lines.first
+    dt1,dt2,name,cnpj = first_ecd_line.split('|')[3,4]
     puts "#{Time.now} - Preparing header of ECF"
-    new_content << "|0000|LECF|0001|33151291000178|ATLANTICA COMPANHIA DE SEGUROS|0|0|||01012014|31122014|N||0||\n|0001|0|\n|0010||N|N|1|A|03|RRRR|BBEEEEBBBEEB|||||N||\n|0020|S||N|N|N|N|N|N|N|N|N|N|N|S|N|N|N|N|N|N|N|N|N|S|N|N|N|N|N|N|\n|0030|2054|6512000|BARAO DE ITAPAGIPE|225|PARTE|RIO COMPRIDO|RJ|3304557|20261901||grazielli.brasil@bradescoseguros.com.br|\n|0930|Getúlio Antonio Guidini|19718934049|900|1RS034447/O-7S|grazielli.brasil@bradescoseguros.com.br|001132655595|\n|0930|GRAZIELLI CAVALCANTE BRASIL|28863890803|309|||001132655595|\n|0990|8|\n|J001|0|\n"
+    new_content << "|0000|LECF|0001|#{cnpj}|#{name}|0|0|||#{dt1}|#{dt2}|N||0||\n|0001|0|\n|0010||N|N|1|A|03|RRRR|BBEEEEBBBEEB|||||N||\n|0020|S||N|N|N|N|N|N|N|N|N|N|N|S|N|N|N|N|N|N|N|N|N|S|N|N|N|N|N|N|\n|0030|2054|6512000|BARAO DE ITAPAGIPE|225|PARTE|RIO COMPRIDO|RJ|3304557|20261901||grazielli.brasil@bradescoseguros.com.br|\n|0930|Getúlio Antonio Guidini|19718934049|900|1RS034447/O-7S|grazielli.brasil@bradescoseguros.com.br|001132655595|\n|0930|GRAZIELLI CAVALCANTE BRASIL|28863890803|309|||001132655595|\n|0990|8|\n|J001|0|\n"
   end
 
   def process_content(content, new_content)
     meaningful_registers = separate_meaningful_registers(content)
     fixed_registers = process_meaningful_registers(meaningful_registers)
     fixed_registers.each do |register|
-      new_content << register.to_s
+      new_content << "#{register.to_s}\n"
     end
+
   end
 
   def process_meaningful_registers(meaningful_registers_lines)
@@ -62,29 +64,35 @@ class Ecd2Ecf
       pivot = { pivot: workload.shift }
 
       workload.each do |current|
-        bla(pivot, last, current)
+        process_register(pivot, last, current, meaningful_fixed_registers)
+        if(current.kind == 'A')
+          puts "last element: #{current}"
+          meaningful_fixed_registers.push(current)
+          meaningful_fixed_registers.push(current.generate_j051_line)
+        end
       end
     end
     return meaningful_fixed_registers
   end
 
   # FIXME: Review process
-  def bla(pivot, last, current)
+  def process_register(pivot, last, current, meaningful_fixed_registers)
     _pivot = pivot[:pivot]
+    puts "pivot: #{_pivot}"
 
     if (_pivot.prefix == last.prefix)
-      raise ArgumentError "Arquivo invalido" if current.order < _pivot.order
-
-      if(current.order > (_pivot.order + 1))
+      if(current.order.to_i > (_pivot.order.to_i + 1))
         meaningful_fixed_registers.push(_pivot)
-        bla(_pivot.generate_next, last, _pivot)
-
-      elsif (current.order == (_pivot.order + 1)) || (current.order == _pivot.order)
+        pivot[:pivot] = _pivot.generate_next
+        process_register(pivot, last, current, meaningful_fixed_registers)
+      else
         current.fix_myself_based_on_predecessor(_pivot)
         meaningful_fixed_registers.push(_pivot)
         pivot[:pivot] = current
       end
-
+    else
+      meaningful_fixed_registers.push(_pivot)
+      pivot[:pivot] = current
     end
   end
 
@@ -109,7 +117,7 @@ class Ecd2Ecf
   def convert_meaningful_to_array(meaningful_registers_lines)
     all_meaningful_ecd_registers = []
     meaningful_registers_lines.each_line do |register_line|
-      all_meaningful_ecd_registers.push ECDRegister.new(register_line)
+      all_meaningful_ecd_registers.push ECDRegister.new(register_line, @table)
     end
     return all_meaningful_ecd_registers
   end

@@ -21,9 +21,6 @@ RSpec.describe Ecd2Ecf do
     @converter.convert(input, output)
 
     result = File.read(output)
-    # expect(result).to include("|J051|4||11111|")
-    # expect(result).to include("|J050|01012014|01|S|2|11|1|CIRCULANTE|")
-    # expect(result).to include("|J990|29|")
     expect(result).to eq(File.read("spec/ecf_expected_result.txt"))
   end
 

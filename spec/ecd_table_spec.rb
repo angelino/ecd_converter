@@ -9,7 +9,7 @@ RSpec.describe ECDTable do
     end
 
     it "contains all elements of base file" do
-      expect(@table.entries.size).to eq(11)
+      expect(@table.entries.size).to eq(12)
     end
 
     it  "the first entrie is the headers" do

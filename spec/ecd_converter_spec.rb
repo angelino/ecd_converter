@@ -1,4 +1,5 @@
 require 'ecd_converter'
+require 'ecd_table'
 
 RSpec.describe ECDConverter do
 
@@ -21,7 +22,7 @@ RSpec.describe ECDConverter do
 
     result = File.read(output)
     expect(result).to include("|I051|4||1.01.01.01|")
-    expect(result).to include("|I051|4||3.03.01|")
+    expect(result).to include("|I051|4||1.01.01.02|")
   end
 
 end
