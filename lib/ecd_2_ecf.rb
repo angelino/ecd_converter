@@ -47,24 +47,45 @@ class Ecd2Ecf
 
   def process_content(content, new_content)
     meaningful_registers = separate_meaningful_registers(content)
-    process_meaningful_registers(meaningful_registers)
+    fixed_registers = process_meaningful_registers(meaningful_registers)
+    fixed_registers.each do |register|
+      new_content << register.to_s
+    end
   end
 
   def process_meaningful_registers(meaningful_registers_lines)
     meaningful_registers = convert_meaningful_to_array(meaningful_registers_lines)
     meaningful_fixed_registers = []
     while(workload = extract_next_block(meaningful_registers))
-      pivot = workload.shift
-      last  = workload.last
 
-      if (pivot.prefix == last.prefix)
-        processa
+      last  = workload.last
+      pivot = { pivot: workload.shift }
+
+      workload.each do |current|
+        bla(pivot, last, current)
+      end
+    end
+    return meaningful_fixed_registers
+  end
+
+  # FIXME: Review process
+  def bla(pivot, last, current)
+    _pivot = pivot[:pivot]
+
+    if (_pivot.prefix == last.prefix)
+      raise ArgumentError "Arquivo invalido" if current.order < _pivot.order
+
+      if(current.order > (_pivot.order + 1))
+        meaningful_fixed_registers.push(_pivot)
+        bla(_pivot.generate_next, last, _pivot)
+
+      elsif (current.order == (_pivot.order + 1)) || (current.order == _pivot.order)
+        current.fix_myself_based_on_predecessor(_pivot)
+        meaningful_fixed_registers.push(_pivot)
+        pivot[:pivot] = current
       end
 
-      meaningful_fixed_registers.push pivot
-      pivot = current
     end
-
   end
 
   def extract_next_block(registers_array)
@@ -75,7 +96,14 @@ class Ecd2Ecf
         break
       end
     end
-    registers_array.slice!(0,last_block_element_index+1)
+
+    result = registers_array.slice!(0,last_block_element_index+1)
+
+    if result.empty?
+      return nil
+    else
+      return result
+    end
   end
 
   def convert_meaningful_to_array(meaningful_registers_lines)

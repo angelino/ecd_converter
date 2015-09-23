@@ -11,6 +11,12 @@ class ECDRegister
     ECDRegister.new "|#{@group}|#{@date}|#{@number}{|#{@kind}|#{@order.to_i + 1}|#{@code.to_s + "0"}|#{@code}|#{@description}|"
   end
 
+  # Remove o ultimo agrupamento de zeros do 'code'
+  def prefix
+    # FIXME:
+    code[0...code.index(code.scan(/0+/).last)]
+  end
+
   def fix_myself_based_on_predecessor(predecessor_register)
     @order = predecessor_register.order.to_i + 1
     @code  = predecessor_register.code.to_s + "0"
