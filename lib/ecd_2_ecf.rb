@@ -52,7 +52,30 @@ class Ecd2Ecf
 
   def process_meaningful_registers(meaningful_registers_lines)
     meaningful_registers = convert_meaningful_to_array(meaningful_registers_lines)
+    meaningful_fixed_registers = []
+    while(workload = extract_next_block(meaningful_registers))
+      pivot = workload.shift
+      last  = workload.last
 
+      if (pivot.prefix == last.prefix)
+        processa
+      end
+
+      meaningful_fixed_registers.push pivot
+      pivot = current
+    end
+
+  end
+
+  def extract_next_block(registers_array)
+    last_block_element_index = -1
+    registers_array.each_with_index do |element, index|
+      if (element.kind == 'A')
+        last_block_element_index = index
+        break
+      end
+    end
+    registers_array.slice!(0,last_block_element_index+1)
   end
 
   def convert_meaningful_to_array(meaningful_registers_lines)
@@ -78,13 +101,13 @@ class Ecd2Ecf
     puts "#{Time.now} - Fixing register #{line_number}"
     register = cleanup_register(register)
     if(!register.nil? && !register.empty?)
-      return "#{register.gsub(/(\|I050\|)/,"|J050|").gsub(/(\|I051\|)/,"|J051|")}"
+      return "#{register.gsub(/(\|I050\|)/,"|J050|")}"
     end
     return ""
   end
 
   def cleanup_register(register)
-    if(register.start_with?('|I050|') || register.start_with?('|I051|'))
+    if(register.start_with?('|I050|'))
       return register
     end
     puts "#{Time.now} - Register cleaned"
@@ -100,4 +123,5 @@ class Ecd2Ecf
     puts "#{Time.now} - Counting |J050| and |J051| registers..."
     return content.scan(/(\|J051\|)|(\|J050\|)/).count
   end
+
 end
