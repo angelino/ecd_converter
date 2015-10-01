@@ -1,10 +1,11 @@
 require 'csv'
 
 class ECDTable
-  attr_reader :filename
+  attr_reader :filename, :rejected
 
   def initialize(filename)
     @filename = filename
+    @rejected = []
   end
 
   def entries
@@ -12,6 +13,9 @@ class ECDTable
   end
 
   def find(cod)
+    if entries[cod].nil?
+      rejected << cod
+    end
     entries[cod]
   end
 

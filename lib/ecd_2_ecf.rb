@@ -22,6 +22,10 @@ class Ecd2Ecf
     finish_time = Time.now
     puts "#{finish_time} - Finishing creation of ECF..."
     puts "Finished conversion in #{finish_time.tv_sec - start_time.tv_sec} seconds"
+    puts "#{Time.now} - Rejected registers:"
+    @table.rejected.each do |rejected_register_code|
+      puts rejected_register_code
+    end
   end
 
   private
@@ -43,7 +47,7 @@ class Ecd2Ecf
     first_ecd_line = content.lines.first
     dt1,dt2,name,cnpj = first_ecd_line.split('|')[3,4]
     puts "#{Time.now} - Preparing header of ECF"
-    new_content << "|0000|LECF|0001|#{cnpj}|#{name}|0|0|||#{dt1}|#{dt2}|N||0||\n|0001|0|\n|0010||N|N|1|A|03|RRRR|BBEEEEBBBEEB|||||N||\n|0020|S||N|N|N|N|N|N|N|N|N|N|N|S|N|N|N|N|N|N|N|N|N|S|N|N|N|N|N|N|\n|0030|2054|6512000|BARAO DE ITAPAGIPE|225|PARTE|RIO COMPRIDO|RJ|3304557|20261901||grazielli.brasil@bradescoseguros.com.br|\n|0930|Getúlio Antonio Guidini|19718934049|900|1RS034447/O-7S|grazielli.brasil@bradescoseguros.com.br|001132655595|\n|0930|GRAZIELLI CAVALCANTE BRASIL|28863890803|309|||001132655595|\n|0990|8|\n|J001|0|\n"
+    new_content << "|0000|LECF|0001|#{cnpj}|#{name}|0|0|||#{dt1}|#{dt2}|N||0||\n|0001|0|\n|0010||N|N|1|A|03|RRRR|BBBBBBBBBBBB|||||N||\n|0020|S||N|N|S|N|N|N|N|N|N|N|N|N|N|N|N|N|S|N|N|N|N|N|N|N|N|N|N|N|\n|0030|2054|6512000|Av Paulista|854|ANDAR: 10|BELA VISTA|SP|3550308|1311110|11 21860300|henry.arima@starrcompanies.com|\n|0930|SHOEI HENRY ARIMA|22350524876|205||henry.arima@starrcompanies.com.br||\n|0930|MAURICIO GOLÇALVES CAMILO PINTO |06339477844|900|ISP1458607|mauricio@mcamiloconsultoria.com.br|31066954|\n|0990|8|\n|J001|0|\n"
   end
 
   def process_content(content, new_content)
@@ -152,12 +156,22 @@ class Ecd2Ecf
 
   def prepare_footer(new_content)
     puts "#{Time.now} - Preparing footer of ECF"
-    new_content << "|J990|#{count_registers(new_content)}|\n|9001|0|\n|9900|0000|1|0.06|ID_TAB_DIN|\n|9900|0001|1|0.06|ID_TAB_DIN|\n|9900|0010|1|0.06|ID_TAB_DIN|\n|9900|0020|1|0.06|ID_TAB_DIN|\n|9900|0030|1|0.06|ID_TAB_DIN|\n|9900|0930|2|0.06|ID_TAB_DIN|\n|9900|0990|1|0.06|ID_TAB_DIN|\n|9900|9001|1|0.06|ID_TAB_DIN|\n|9900|J001|1|0.06|ID_TAB_DIN|\n|9900|J050|1138|0.06|ID_TAB_DIN|\n|9900|J051|186|0.06|ID_TAB_DIN|\n|9900|J990|1|0.06|ID_TAB_DIN|\n|9900|K001|1|0.06|ID_TAB_DIN|\n|9900|K030|7|0.06|ID_TAB_DIN|\n|9900|K155|670|0.06|ID_TAB_DIN|\n|9900|K156|656|0.06|ID_TAB_DIN|\n|9900|K355|524|0.06|ID_TAB_DIN|\n|9900|K356|510|0.06|ID_TAB_DIN|\n|9900|K990|1|0.06|ID_TAB_DIN|\n|9900|L001|1|0.06|ID_TAB_DIN|\n|9900|L030|7|0.06|ID_TAB_DIN|\n|9900|L100|467|0.06|ID_TAB_DIN|\n|9900|L300|55|0.06|ID_TAB_DIN|\n|9900|L990|1|0.06|ID_TAB_DIN|\n|9900|M001|1|0.06|ID_TAB_DIN|\n|9900|M010|10|0.06|ID_TAB_DIN|\n|9900|M030|7|0.06|ID_TAB_DIN|\n|9900|M300|48|0.06|ID_TAB_DIN|\n|9900|M305|27|0.06|ID_TAB_DIN|\n|9900|M310|47|0.06|ID_TAB_DIN|\n|9900|M350|39|0.06|ID_TAB_DIN|\n|9900|M355|27|0.06|ID_TAB_DIN|\n|9900|M360|47|0.06|ID_TAB_DIN|\n|9900|M500|50|0.06|ID_TAB_DIN|\n|9900|M990|1|0.06|ID_TAB_DIN|\n|9900|N001|1|0.06|ID_TAB_DIN|\n|9900|N030|13|0.06|ID_TAB_DIN|\n|9900|N500|26|0.06|ID_TAB_DIN|\n|9900|N620|324|0.06|ID_TAB_DIN|\n|9900|N630|24|0.06|ID_TAB_DIN|\n|9900|N650|26|0.06|ID_TAB_DIN|\n|9900|N660|228|0.06|ID_TAB_DIN|\n|9900|N670|23|0.06|ID_TAB_DIN|\n|9900|N990|1|0.06|ID_TAB_DIN|\n|9900|X001|1|0.06|ID_TAB_DIN|\n|9900|X450|1|0.06|ID_TAB_DIN|\n|9900|X990|1|0.06|ID_TAB_DIN|\n|9900|Y001|1|0.06|ID_TAB_DIN|\n|9900|Y600|1|0.06|ID_TAB_DIN|\n|9900|Y611|1|0.06|ID_TAB_DIN|\n|9900|Y671|1|0.06|ID_TAB_DIN|\n|9900|Y990|1|0.06|ID_TAB_DIN|\n|9900|9900|54|0.06||\n|9900|9990|1|0.06|ID TAB DIN|"
+    new_content << "|J990|#{count_registers(new_content)}|\n|9001|0|\n|9900|0000|1|0.06|ID_TAB_DIN|\n|9900|0001|1|0.06|ID_TAB_DIN|\n|9900|0010|1|0.06|ID_TAB_DIN|\n|9900|0020|1|0.06|ID_TAB_DIN|\n|9900|0030|1|0.06|ID_TAB_DIN|\n|9900|0930|2|0.06|ID_TAB_DIN|\n|9900|0990|1|0.06|ID_TAB_DIN|\n|9900|9001|1|0.06|ID_TAB_DIN|\n|9900|J001|1|0.06|ID_TAB_DIN|\n|9900|J050|#{count_registers_j050(new_content)}|0.06|ID_TAB_DIN|\n|9900|J051|#{count_registers_j051(new_content)}|0.06|ID_TAB_DIN|\n|9900|J990|1|0.06|ID_TAB_DIN|\n|9900|9900|15|0.06|ID_TAB_DIN|\n|9900|9990|1|0.06|ID TAB DIN|"
   end
 
   def count_registers(content)
     puts "#{Time.now} - Counting |J050| and |J051| registers..."
-    return content.scan(/(\|J051\|)|(\|J050\|)/).count
+    return content.scan(/(\|J051\|)|(\|J050\|)/).count + 2
+  end
+
+  def count_registers_j050(content)
+    puts "#{Time.now} - Counting |J050| and |J051| registers..."
+    return content.scan(/(\|J050\|)/).count
+  end
+
+  def count_registers_j051(content)
+    puts "#{Time.now} - Counting |J050| and |J051| registers..."
+    return content.scan(/(\|J051\|)/).count
   end
 
 end

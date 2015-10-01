@@ -14,20 +14,20 @@ class ECDRegister
 
   def generate_j051_line
     if kind == 'A' && @table
-      return "|J051|||#{@table.find(prefix)}|"
+      return "|J051||#{@table.find(prefix)}|"
     elsif kind == 'A'
-      return "|J051|||#{prefix}|"
+      return "|J051||#{prefix}|"
     end
     return nil
   end
 
   # Remove o ultimo agrupamento de zeros do 'code'
   def prefix
-    end_of_prefix_index = code.rindex(/[^0](0)\1*([^2-9]|$)$/)
+    end_of_prefix_index = @code.rindex(/[^0](0)\1*([^2-9]|$)$/)
     unless(end_of_prefix_index)
-      end_of_prefix_index = code.size
+      end_of_prefix_index = @code.size
     end
-    code[0..end_of_prefix_index]
+    @code[0..end_of_prefix_index]
   end
 
   def fix_myself_based_on_predecessor(predecessor_register)
